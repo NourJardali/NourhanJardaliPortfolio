@@ -6,39 +6,45 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
+    "Laravel",
+    "PHP",
     "React",
-    "TypeScript",
+    "Next.js",
     "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
+    "TypeScript",
+    "MySQL",
     "PostgreSQL",
-    "Postman"
+    "REST APIs",
+    "Firebase",
+    "Flutter",
+    'Git'
 ];
 
 const labelsSecond = [
-    "Git",
-    "GitHub Actions",
-    "Docker",
-    "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "React.js",
+    "Next.js",
+    "JavaScript (ES6+)",
+    "HTML5",
+    "CSS3",
+    "SASS",
+    "Bootstrap",
+    "Tailwind CSS",
+    "Figma (UI implementation)",
+    "Responsive Design",
+    "Material UI"
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Laravel Architecture",
+    "API Design (REST)",
+    "Microservices",
+    "MySQL",
+    "Redis",
+    "Odoo Integration",
+    "Git & Version Control",
+    "System Design",
+    "Cloud Deployment (Azure / basic AWS exposure)",
+    "ERP / CRM Systems"
 ];
 
 function Expertise() {
@@ -49,8 +55,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <h3>Full-Stack Business Systems Development</h3>
+                    <p>I specialize in building complete business platforms from scratch, including ERP systems, SaaS platforms, ecommerce solutions, and POS systems. My focus is on designing scalable architectures that connect frontend, backend, and databases into one unified system that solves real operational problems.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -61,8 +67,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <h3>Front-End Engineering & UI Systems</h3>
+                    <p>I build responsive and user-friendly interfaces for dashboards, admin panels, and customer-facing applications. I focus on turning complex business logic into clean, usable UI that improves user experience and performance across devices.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -73,8 +79,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <h3>System Architecture, APIs & Digital Transformation</h3>
+                    <p>I design and implement backend systems, APIs, and workflows that support scalable digital products. I’ve led the development of systems that integrate multiple services (payments, inventory, CRM, bookings) and help businesses digitize and automate their operations.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
