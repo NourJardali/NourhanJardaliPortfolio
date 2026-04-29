@@ -16,50 +16,54 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="2023 - 2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Co-Founder & Project Manager</h3>
+            <h4 className="vertical-timeline-element-subtitle">DeVision</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Led development and delivery of ERP systems, SaaS platforms, and ecommerce solutions. 
+              <br />Managed cross-functional teams, client communication, and full project lifecycles from planning to deployment.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="2021 - 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Operations Manager & Head of Development</h3>
+            <h4 className="vertical-timeline-element-subtitle">Karim Press</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+             Managed technical operations and led software development teams delivering enterprise systems.
+             <br />Oversaw architecture decisions, project planning, and execution of web platforms and digital solutions.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
+            date="2018 - 2020"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Full Stack / Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Cadmus Data Science</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+            Developed web and mobile applications using modern frameworks.
+            <br />Worked on API integrations, backend systems, and Android development while gaining experience in scalable system design.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="2018 - 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Freelance Software Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Self-Employed</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+            Delivered full-stack digital solutions for SMEs across retail, F&B, education, and ecommerce.
+            <br />Built POS systems, LMS platforms, ecommerce websites, and custom business applications.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
