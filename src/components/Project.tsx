@@ -20,9 +20,8 @@ function Project() {
         image: string;
         link: string;
         shortDesc: string;
-        fullDesc: string;
+        fullDesc: string[];
         technologies: string[];
-        role: string;
     };
 
     const [selectedProject, setSelectedProject] = useState<ProjectType | null>(null);
@@ -33,110 +32,14 @@ function Project() {
             company: "Team Project — Cadmus Data Science",
             image: yapa,
             link: "https://www.cadmusdatascience.com/installation-of-today-add-in/",
-            shortDesc: "AI-assisted Outlook productivity Add-in.",
-            fullDesc:
-                "AI-assisted Outlook productivity Add-in designed to help users prioritize, organize, and classify emails using machine learning-driven recommendations.",
-            technologies: ["React", "Machine Learning", "Outlook Add-in", "Python"],
-            role: "Full-Stack Developer",
-        },
-        {
-            title: "High Speed Chase",
-            company: "Team Project — Cadmus Data Science",
-            image: mock09,
-            link: "https://yujisatojr.itch.io/highspeedchase",
-            shortDesc: "3D multiplayer racing game.",
-            fullDesc:
-                "Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. Available on Itch.io for gamers worldwide.",
-            technologies: ["Unity", "C#", "Multiplayer"],
-            role: "Game Developer",
-        },
-        {
-            title: "Astro Raiders",
-            company: "Team Project — Cadmus Data Science",
-            image: mock08,
-            link: "https://yujisatojr.itch.io/spacecraft",
-            shortDesc: "2D shooting game.",
-            fullDesc:
-                "Developed and released a 2D shooting game using C# and Unity and published it on Itch.io.",
-            technologies: ["Unity", "C#", "2D Game Development"],
-            role: "Game Developer",
-        },
-        {
-            title: "Datum: Integrated Learning Platform",
-            company: "Team Project — Cadmus Data Science",
-            image: mock07,
-            link: "https://www.datumlearn.com/",
-            shortDesc: "Educational learning platform.",
-            fullDesc:
-                "Built a complete online educational platform from scratch using Ruby on Rails focused on data science education in Japanese.",
-            technologies: ["Ruby on Rails", "PostgreSQL", "JavaScript"],
-            role: "Full-Stack Developer",
-        },
-        {
-            title: "WeManage",
-            company: "Team Project — Cadmus Data Science",
-            image: mock06,
-            link: "http://www.wemanage.jp/",
-            shortDesc: "Real estate asset management app.",
-            fullDesc:
-                "Developed a real estate asset management application allowing Japanese realtors to manage properties and analyze future income predictions.",
-            technologies: ["Ruby on Rails", "JavaScript"],
-            role: "Software Engineer",
-        },
-        {
-            title: "COVID-19 Case Management",
-            company: "Team Project — Cadmus Data Science",
-            image: mock05,
-            link: "https://www.byuh.edu/covid-19-case-management",
-            shortDesc: "COVID tracking dashboard.",
-            fullDesc:
-                "Built official COVID/vaccination tracking charts for university leadership using JavaScript and Google Sheets API v4.",
-            technologies: ["JavaScript", "Google Sheets API"],
-            role: "Frontend Developer",
-        },
-        {
-            title: "Multiple Regression Property Analysis",
-            company: "Team Project — Cadmus Data Science",
-            image: mock04,
-            link: "https://github.com/yujisatojr/multi-reg-analysis",
-            shortDesc: "Real estate market prediction analysis.",
-            fullDesc:
-                "Analyzed Japanese real estate markets and predicted property prices using OLS and multi-regression analysis.",
-            technologies: ["Python", "Pandas", "NumPy", "Scikit-Learn"],
-            role: "Data Analyst",
-        },
-        {
-            title: "Programs of Study",
-            company: "Team Project — Cadmus Data Science",
-            image: mock03,
-            link: "https://holokai.byuh.edu/programs-of-study",
-            shortDesc: "CMS custom component.",
-            fullDesc:
-                "Designed and developed a custom Brightspot CMS component allowing students to browse majors and programs.",
-            technologies: ["Java", "Handlebars", "LESS"],
-            role: "Software Engineer",
-        },
-        {
-            title: "Transfer Evaluation Matrix",
-            company: "Team Project — Cadmus Data Science",
-            image: mock02,
-            link: "https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix",
-            shortDesc: "Interactive CSV table generator.",
-            fullDesc:
-                "Created an interactive CSV table generator helping transfer students identify eligible credits efficiently.",
-            technologies: ["Java", "Handlebars", "LESS"],
-            role: "Software Engineer",
-        },
-        {
-            title: "Submeowrine",
-            company: "Team Project — Cadmus Data Science",
-            image: mock01,
-            link: "https://github.com/yujisatojr/submeowrine",
-            shortDesc: "Android 2D shooting game.",
-            fullDesc:
-                "Built and released an Android mobile game using Java and Android Studio.",
-            technologies: ["Java", "Android Studio"],
-            role: "Android Developer",
+            shortDesc: "AI-assisted Outlook productivity Add-in designed to help users prioritize, organize, and classify emails using machine learning-driven recommendations.",
+            fullDesc: [
+                "Enhanced frontend functionality for the Outlook Add-in",
+                "Developed Android mobile application from scratch",
+                "Integrated backend APIs and Microsoft Graph API",
+                "Implemented mobile UI updates based on designer specifications"
+            ],
+            technologies: ["ASP.NET", "Android (Kotlin/Java)", "REST APIs", "Microsoft Graph API", "Retrofit", "Python APIs"]
         },
     ];
 
@@ -201,12 +104,11 @@ function Project() {
                             {selectedProject.company}
                         </span>
 
-                        <p>{selectedProject.fullDesc}</p>
-
-                        <div className="modal-section">
-                            <h3>Role</h3>
-                            <p>{selectedProject.role}</p>
-                        </div>
+                        <ul className="project-list">
+                            {selectedProject.fullDesc.map((item, index) => (
+                                <li key={index}>{item}</li>
+                            ))}
+                        </ul>
 
                         <div className="modal-section">
                             <h3>Technologies</h3>
