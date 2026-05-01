@@ -41,6 +41,23 @@ function Project() {
             ],
             technologies: ["ASP.NET", "Android (Kotlin/Java)", "REST APIs", "Microsoft Graph API", "Retrofit", "Python APIs"]
         },
+        {
+            title: "Tayibat Food Delivery App",
+            company: "Team Project — Tayibat",
+            image: yapa,
+            link: "https://play.google.com/store/apps/details?id=com.tayibat.client",
+            shortDesc: "Tayibat is a food delivery platform that connects customers with restaurants and delivery drivers across Algeria. The app simplifies ordering, delivery tracking, and restaurant management.",
+            fullDesc: [
+                "Android Development Intern working on production codebase",
+                "Focused on debugging, architecture understanding, and feature support",
+                "Fixed bugs in existing Android application",
+                "Improved stability and performance of client app",
+                "Worked with MVVM architecture pattern to understand scalable app structure",
+                "Implemented and worked with Room Database for local data persistence",
+                "Assisted in maintaining production-level mobile application"
+            ],
+            technologies: ["Android", "Java/Kotlin", "MVVM Architecture", "Room Database", "Git", "REST APIs"]
+        },
     ];
 
     return (
