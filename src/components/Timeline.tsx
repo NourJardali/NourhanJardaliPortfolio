@@ -42,6 +42,18 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
+            date="Aug 2020 – Oct 2020"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Android Development Part-Time Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Tayibat (Food Delivery App)</h4>
+            <p>
+            Worked on a live food delivery Android app, focusing on bug fixes, MVVM architecture, and Room database while gaining production mobile development experience.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
             date="2018 - 2020"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
