@@ -47,10 +47,9 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">Full Stack / Software Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Cadmus Data Science</h4>
+            <h4 className="vertical-timeline-element-subtitle">Cadmus Data Science (Remote — Netherlands)</h4>
             <p>
-            Developed web and mobile applications using modern frameworks.
-            <br />Worked on API integrations, backend systems, and Android development while gaining experience in scalable system design.
+            Worked on Microsoft-integrated productivity and workflow automation systems, including an Outlook Add-in and Android application with API integrations and workflow logic.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

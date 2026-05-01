@@ -1,3 +1,46 @@
+.projects-grid {
+    position: relative;
+    z-index: 1;
+}
+
+.project {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.project {
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    pointer-events: auto;
+}
+
+.zoom {
+    border-radius: 5px;
+    transition: transform .2s;
+    margin: 0 auto;
+    display: block;
+}
+
+.projects-container {
+    position: relative;
+    z-index: 1;
+}
+
+.projects-grid {
+    position: relative;
+    z-index: 2;
+}
+
+.project * {
+    pointer-events: none;
+}
+
+.project {
+    pointer-events: auto;
+}
+
 .projects-container {
     display: flex;
     flex-direction: column;
@@ -46,4 +89,113 @@
             padding-bottom: 5%;
         }
     }
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+
+    padding: 20px;
+}
+
+.project-modal {
+    width: 100%;
+    max-width: 750px;
+
+    background: #111;
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    position: relative;
+
+    max-height: 90vh;
+    overflow-y: auto;
+
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+.modal-image {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #222;
+    color: white;
+
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal-section {
+    margin-top: 20px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tech-badge {
+    background: #222;
+    padding: 8px 14px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.visit-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 20px;
+
+    background: white;
+    color: black;
+
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-tag {
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 10px;
+
+    padding: 4px 10px;
+    font-size: 12px;
+
+    border-radius: 20px;
+    background: #222;
+    color: #fff;
+}
+
+.modal-tag {
+    margin-bottom: 15px;
+    font-size: 13px;
+    background: #333;
 }
