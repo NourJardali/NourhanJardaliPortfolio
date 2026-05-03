@@ -20,7 +20,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/nourhan-jardali/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Nourhan Jardali</h1>
-          <p>Senior Full Stack Developer</p>
+          <p>Senior Software Engineer | Technical Lead</p>
 
           <div className="mobile_social_icons">
             {/* <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a> */}
