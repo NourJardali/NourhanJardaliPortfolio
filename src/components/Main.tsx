@@ -16,16 +16,16 @@ function Main() {
         <div className="content">
           <div className="social_icons">
             {/* <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a> */}
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer"><InstagramIcon /></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            {/* <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer"><InstagramIcon /></a> */}
+            <a href="https://www.linkedin.com/in/nourhan-jardali/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Nourhan Jardali</h1>
           <p>Senior Full Stack Developer</p>
 
           <div className="mobile_social_icons">
             {/* <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a> */}
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer"><InstagramIcon /></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            {/* <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer"><InstagramIcon /></a> */}
+            <a href="https://www.linkedin.com/in/nourhan-jardali/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
         </div>
       </div>

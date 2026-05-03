@@ -16,15 +16,28 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="2019 - present"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Freelance Full-Stack Developer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Freelance</h4>
+            <p>
+              Delivered frontend and full-stack web solutions for international clients across ecommerce, food delivery, consulting, and engineering industries.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="2023 - 2026"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Co-Founder & Project Manager</h3>
+            <h3 className="vertical-timeline-element-title">Co-Founder & Digital Solutions Lead</h3>
             <h4 className="vertical-timeline-element-subtitle">DeVision</h4>
             <p>
-              Led development and delivery of ERP systems, SaaS platforms, and ecommerce solutions. 
-              <br />Managed cross-functional teams, client communication, and full project lifecycles from planning to deployment.
+              Co-led a digital solutions agency delivering enterprise systems, ecommerce platforms, CRM solutions, and international client projects while managing teams, operations, recruitment, and technical delivery.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -36,8 +49,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Operations Manager & Head of Development</h3>
             <h4 className="vertical-timeline-element-subtitle">Karim Press</h4>
             <p>
-             Managed technical operations and led software development teams delivering enterprise systems.
-             <br />Oversaw architecture decisions, project planning, and execution of web platforms and digital solutions.
+             Led development teams and managed delivery of NGO, SaaS, CRM, ecommerce, and enterprise platforms while contributing to operations management, client acquisition, and technical leadership.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
