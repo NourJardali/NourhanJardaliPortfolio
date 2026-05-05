@@ -7,44 +7,52 @@ import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
     "Laravel",
-    "PHP",
+    "Node.js",
+    "NestJS",
     "React",
     "Next.js",
-    "JavaScript",
     "TypeScript",
+    "PHP",
     "MySQL",
     "PostgreSQL",
     "REST APIs",
-    "Firebase",
-    "Flutter",
-    'Git'
+    "Microservices",
+    "Docker",
+    "AWS (EC2, S3, Lambda, RDS)",
+    "Azure",
+    "Git"
 ];
 
 const labelsSecond = [
     "React.js",
     "Next.js",
+    "Flutter",
     "JavaScript (ES6+)",
+    "TypeScript",
     "HTML5",
     "CSS3",
-    "SASS",
-    "Bootstrap",
     "Tailwind CSS",
-    "Figma (UI implementation)",
+    "Bootstrap",
+    "Material UI",
+    "Firebase",
     "Responsive Design",
-    "Material UI"
+    "Figma Implementation"
 ];
 
 const labelsThird = [
-    "Laravel Architecture",
-    "API Design (REST)",
-    "Microservices",
-    "MySQL",
-    "Redis",
-    "Odoo Integration",
-    "Git & Version Control",
+    "AWS Architecture",
+    "CI/CD Pipelines",
+    "Docker",
     "System Design",
-    "Cloud Deployment (Azure / basic AWS exposure)",
-    "ERP / CRM Systems"
+    "REST API Architecture",
+    "Microservices",
+    "Cloud Deployment",
+    "IIS & Nginx",
+    "Git & Version Control",
+    "ERP / CRM Systems",
+    "Workflow Automation",
+    "Agile / Scrum",
+    "Technical Mentorship"
 ];
 
 function Expertise() {
@@ -55,8 +63,8 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
-                    <h3>Full-Stack Business Systems Development</h3>
-                    <p>I specialize in building complete business platforms from scratch, including ERP systems, SaaS platforms, ecommerce solutions, and POS systems. My focus is on designing scalable architectures that connect frontend, backend, and databases into one unified system that solves real operational problems.</p>
+                    <h3>Cloud & Enterprise System Engineering</h3>
+                    <p>I design and build scalable SaaS, ERP, ecommerce, and enterprise systems with strong focus on cloud architecture, API integrations, and production reliability. Experienced in leading full-stack development across distributed systems, operational platforms, and high-traffic business applications.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -67,8 +75,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>Front-End Engineering & UI Systems</h3>
-                    <p>I build responsive and user-friendly interfaces for dashboards, admin panels, and customer-facing applications. I focus on turning complex business logic into clean, usable UI that improves user experience and performance across devices.</p>
+                    <h3>Full-Stack Product Engineering</h3>
+                    <p>I build responsive web and mobile applications with focus on performance, scalability, and clean user experience. Experienced in developing dashboards, operational systems, ecommerce platforms, and cross-platform mobile applications used in real production environments.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -79,8 +87,8 @@ function Expertise() {
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>System Architecture, APIs & Digital Transformation</h3>
-                    <p>I design and implement backend systems, APIs, and workflows that support scalable digital products. I’ve led the development of systems that integrate multiple services (payments, inventory, CRM, bookings) and help businesses digitize and automate their operations.</p>
+                    <h3>Solution Architecture & Technical Leadership</h3>
+                    <p>I lead technical delivery from architecture and planning to deployment and client handover. Experienced in managing engineering teams, designing scalable system architectures, implementing CI/CD workflows, and translating business requirements into secure and maintainable technical solutions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
