@@ -23,7 +23,10 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Freelance Full-Stack Developer</h3>
             <h4 className="vertical-timeline-element-subtitle">Freelance</h4>
             <p>
-              Delivered frontend and full-stack web solutions for international clients across ecommerce, food delivery, consulting, and engineering industries.
+              Delivered 20+ web, ecommerce, SaaS, and mobile applications for
+              international clients across retail, logistics, education,
+              consulting, and food delivery industries using Laravel, React.js,
+              Node.js, Flutter, and cloud-based infrastructure.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -37,7 +40,11 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Co-Founder & Digital Solutions Lead</h3>
             <h4 className="vertical-timeline-element-subtitle">DeVision</h4>
             <p>
-              Co-led a digital solutions agency delivering enterprise systems, ecommerce platforms, CRM solutions, and international client projects while managing teams, operations, recruitment, and technical delivery.
+              Co-founded and scaled a digital solutions agency delivering SaaS,
+              ecommerce, and enterprise systems for international clients.
+              Led end-to-end project delivery, cloud architecture, CI/CD workflows,
+              technical planning, and cross-functional engineering teams while
+              contributing hands-on to development and system optimization.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -49,19 +56,11 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Operations Manager & Head of Development</h3>
             <h4 className="vertical-timeline-element-subtitle">Karim Press</h4>
             <p>
-             Led development teams and managed delivery of NGO, SaaS, CRM, ecommerce, and enterprise platforms while contributing to operations management, client acquisition, and technical leadership.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="Aug 2020 – Oct 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Android Development Part-Time Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tayibat (Food Delivery App)</h4>
-            <p>
-            Worked on a live food delivery Android app, focusing on bug fixes, MVVM architecture, and Room database while gaining production mobile development experience.
+             Led development and operations teams delivering enterprise systems,
+              SaaS platforms, NGO solutions, and cloud-based applications.
+              Managed architecture planning, code reviews, AWS deployments,
+              technical client communication, and end-to-end project delivery
+              across multiple concurrent engagements.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -73,7 +72,10 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Full Stack / Software Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Cadmus Data Science (Remote — Netherlands)</h4>
             <p>
-            Worked on Microsoft-integrated productivity and workflow automation systems, including an Outlook Add-in and Android application with API integrations and workflow logic.
+            Contributed to AI-assisted workflow automation systems including
+              YaPa for Outlook, a Microsoft-approved productivity Add-in.
+              Developed Android applications integrated with Microsoft Graph API,
+              REST services, and scalable workflow management systems.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
