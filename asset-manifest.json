@@ -1,22 +1,30 @@
 {
   "files": {
     "main.css": "/NourhanJardaliPortfolio/static/css/main.3ce5ab72.css",
-    "main.js": "/NourhanJardaliPortfolio/static/js/main.d5da6619.js",
+    "main.js": "/NourhanJardaliPortfolio/static/js/main.c3989c9c.js",
     "static/js/453.b05d8aa5.chunk.js": "/NourhanJardaliPortfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/ubc.png": "/NourhanJardaliPortfolio/static/media/ubc.afe1947a9acfec38de38.png",
+    "static/media/tayibat.png": "/NourhanJardaliPortfolio/static/media/tayibat.d54ccc9ea808ae3079a4.png",
     "static/media/saas.png": "/NourhanJardaliPortfolio/static/media/saas.6d6b9dc97e8193a31886.png",
     "static/media/event.png": "/NourhanJardaliPortfolio/static/media/event.3f72f34568b6e61f75c5.png",
+    "static/media/hildens.png": "/NourhanJardaliPortfolio/static/media/hildens.503fbd0a35129ea8a4df.png",
+    "static/media/vative.png": "/NourhanJardaliPortfolio/static/media/vative.7dd052a2f71e9d80081f.png",
+    "static/media/twe.png": "/NourhanJardaliPortfolio/static/media/twe.76ffd1da1a89c135200a.png",
     "static/media/yapa.png": "/NourhanJardaliPortfolio/static/media/yapa.fa6916a4e2fb31f545b5.png",
+    "static/media/slickey.png": "/NourhanJardaliPortfolio/static/media/slickey.0ac3ff46fe78c8e4b26c.png",
+    "static/media/rascals.png": "/NourhanJardaliPortfolio/static/media/rascals.cade24c636b9b2bc342b.png",
+    "static/media/bocabilla.png": "/NourhanJardaliPortfolio/static/media/bocabilla.bcf1161513244f09fcab.png",
+    "static/media/general.png": "/NourhanJardaliPortfolio/static/media/general.3d6be58189efc06059af.png",
     "static/media/bg-light.png": "/NourhanJardaliPortfolio/static/media/bg-light.bac0efb485244a522981.png",
     "static/media/bg-dark.png": "/NourhanJardaliPortfolio/static/media/bg-dark.f420c6b8458af72de935.png",
     "static/media/profile.png": "/NourhanJardaliPortfolio/static/media/profile.ea2467d86995d614d39e.png",
     "index.html": "/NourhanJardaliPortfolio/index.html",
     "main.3ce5ab72.css.map": "/NourhanJardaliPortfolio/static/css/main.3ce5ab72.css.map",
-    "main.d5da6619.js.map": "/NourhanJardaliPortfolio/static/js/main.d5da6619.js.map",
+    "main.c3989c9c.js.map": "/NourhanJardaliPortfolio/static/js/main.c3989c9c.js.map",
     "453.b05d8aa5.chunk.js.map": "/NourhanJardaliPortfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ce5ab72.css",
-    "static/js/main.d5da6619.js"
+    "static/js/main.c3989c9c.js"
   ]
 }
