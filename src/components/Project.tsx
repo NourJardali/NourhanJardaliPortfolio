@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import saas from '../assets/images/saas.png';
+import b2b from '../assets/images/b2b.png';
 import event from '../assets/images/event.png';
 import ubc from '../assets/images/ubc.png';
 import bocabilla from '../assets/images/bocabilla.png';
@@ -32,33 +33,28 @@ function Project() {
 
     const projects: ProjectType[] = [
         {
-            title: "UBC Food Enterprise Ecosystem",
-            company: "UBC Food / UBC Holding / Maza Inc.",
-            image: ubc,
+            title: "UBC B2B Ordering Application",
+            company: "UBC Food",
+            image: b2b,
             link: "#",
-            shortDesc: "Led technical delivery and maintenance of a large-scale enterprise ecosystem for UBC Food consisting of multiple mobile applications, ecommerce systems, operational dashboards, backend APIs, and cloud-hosted infrastructure supporting business operations and logistics workflows.",
+            shortDesc: "Worked as Full-Stack Engineer on a Flutter-based B2B ordering platform enabling customers to place and manage orders, track deliveries, scan products, and interact with operational services in real time.",
             fullDesc: [
-                "Led development and support across Flutter mobile applications, React dashboard, Next.js ecommerce platform, and ASP.NET backend APIs",
-                "Managed deployments, production troubleshooting, and infrastructure maintenance",
-                "Handled integrations between operational systems, ecommerce workflows, and inventory-related services",
-                "Maintained Azure-hosted environments, Blob Storage assets, IIS servers, SSL configuration, and database replication workflows",
-                "Collaborated directly with stakeholders on feature planning, technical improvements, and operational continuity",
-                "Led technical execution, code reviews, issue resolution, and release coordination",
-                "Maintained stability across multiple production systems supporting daily business operations",
-                "Improved deployment and maintenance workflows for multi-platform environments",
-                "Successfully managed integrations and feature delivery across interconnected systems",
-                "Supported operational scalability through infrastructure optimization and production support"
+                "Developed and maintained the Flutter-based B2B customer ordering application integrated with enterprise backend systems",
+                "Implemented ordering workflows including cart management, checkout, coupons, order tracking, notifications, wallet, favourites, and customer profiles",
+                "Integrated barcode and QR code scanning workflows allowing customers to instantly check product availability and inventory status",
+                "Worked on location-aware ordering flows where product availability depended on customer branch and geographic region",
+                "Integrated backend APIs, authentication systems, and operational workflows connected to logistics and warehouse services",
+                "Collaborated on production deployments, issue resolution, feature delivery, and operational support",
+                "Contributed to maintaining performance and reliability for production customer ordering workflows"
             ],
             technologies: [
                 "Flutter",
-                "React.js",
-                "Next.js",
-                "ASP.NET",
-                "Azure",
-                "IIS",
-                "SQL Server",
-                "Blob Storage",
-                "REST APIs"
+                "Dart",
+                "REST APIs",
+                "Firebase",
+                "Google Maps APIs",
+                "QR/Barcode Scanning",
+                "Authentication Systems"
             ]
         },
         {
@@ -86,6 +82,134 @@ function Project() {
                 "Python APIs",
                 "Workflow Automation",
                 "Microsoft Azure"
+            ]
+        },
+        {
+            title: "UBC Sales Representative Application",
+            company: "UBC Food",
+            image: "",
+            link: "#",
+            shortDesc: "Developed operational mobile workflows for sales representatives including customer management, order lifecycle handling, analytics tracking, and cloud-synced cart management.",
+            fullDesc: [
+                "Worked on a Flutter-based operational platform used by sales representatives for customer ordering and field operations",
+                "Implemented cart workflows allowing sales reps to create, save, duplicate, edit, and submit orders",
+                "Developed cloud synchronization workflows where locally stored carts synced with backend infrastructure for persistence and recovery",
+                "Built customer management workflows including customer creation, draft saving, order history, invoice tracking, and map-based customer locations",
+                "Implemented PDF generation and sharing workflows allowing carts and orders to be sent through WhatsApp and email",
+                "Integrated product catalog workflows filtered dynamically based on branch inventory and customer region",
+                "Worked on analytics dashboards helping sales representatives track monthly sales targets and operational performance",
+                "Integrated live sales representative location tracking connected to operational management dashboards"
+            ],
+            technologies: [
+                "Flutter",
+                "Dart",
+                "REST APIs",
+                "Google Maps APIs",
+                "PDF Generation",
+                "Firebase",
+                "Cloud Synchronization"
+            ]
+        },
+        {
+            title: "UBC Warehouse Picker Application",
+            company: "UBC Food",
+            image: "",
+            link: "#",
+            shortDesc: "Developed warehouse preparation workflows for order picking, stock validation, and operational coordination between warehouse and logistics teams.",
+            fullDesc: [
+                "Worked on a Flutter-based warehouse operations application used by pickers to prepare and validate customer orders",
+                "Implemented notification workflows for assigning preparation jobs to warehouse pickers",
+                "Built item-level preparation interfaces allowing warehouse staff to validate quantities and stock availability",
+                "Developed operational workflows supporting partial fulfillment when requested quantities exceeded available stock",
+                "Integrated backend synchronization workflows to move prepared orders into logistics and warehouse management stages",
+                "Collaborated on operational reliability improvements and production support for warehouse workflows",
+                "Contributed to maintaining synchronization between warehouse operations, backend APIs, and logistics systems"
+            ],
+            technologies: [
+                "Flutter",
+                "Dart",
+                "REST APIs",
+                "Firebase Notifications",
+                "Operational Workflows",
+                "Warehouse Management Systems"
+            ]
+        },
+        {
+            title: "UBC Logistics & Delivery Application",
+            company: "UBC Food",
+            image: "",
+            link: "#",
+            shortDesc: "Developed advanced logistics and delivery workflows including shipment lifecycle management, live driver tracking, route optimization, QR scanning, and delivery confirmation systems.",
+            fullDesc: [
+                "Worked on a Flutter-based logistics application supporting shipment management, delivery coordination, and operational tracking",
+                "Implemented shipment lifecycle workflows covering preparing, active delivery, completion, and operational synchronization",
+                "Integrated Google Maps APIs for route visualization, multi-stop routing, live driver tracking, and delivery navigation",
+                "Built route optimization workflows allowing drivers to optimize shipment stop sequencing",
+                "Implemented live geolocation synchronization and operational tracking connected to management dashboards",
+                "Developed QR/barcode scanning workflows for shipment verification and operational check-ins",
+                "Built electronic proof-of-delivery workflows including customer signatures, notes, and backend synchronization",
+                "Implemented operational notifications, shipment synchronization, and real-time workflow coordination",
+                "Worked on shipment reordering, delivery status updates, and operational state management",
+                "Collaborated on production support, troubleshooting, deployments, and logistics workflow improvements"
+            ],
+            technologies: [
+                "Flutter",
+                "Dart",
+                "Google Maps APIs",
+                "Geolocation",
+                "QR/Barcode Scanning",
+                "REST APIs",
+                "Firebase",
+                "Real-Time Workflows"
+            ]
+        },
+        {
+            title: "UBC Operations Dashboard",
+            company: "UBC Food",
+            image: "",
+            link: "#",
+            shortDesc: "Contributed to a React-based operational dashboard used for managing logistics, orders, notifications, products, analytics, sales representatives, and operational workflows.",
+            fullDesc: [
+                "Worked on a React.js operational dashboard supporting multiple departments including logistics, warehouse, sales, and management teams",
+                "Developed and maintained modules for orders, invoices, products, notifications, campaigns, countries, reporting, and operational analytics",
+                "Integrated live driver and sales representative tracking using Google Maps workflows",
+                "Worked on operational monitoring interfaces and backend integrations connected to enterprise APIs",
+                "Collaborated on workflow coordination between ecommerce, logistics, warehouse, and operational systems",
+                "Handled frontend improvements, bug fixing, feature delivery, and production support",
+                "Contributed to maintaining operational visibility and system reliability across daily business operations"
+            ],
+            technologies: [
+                "React.js",
+                "JavaScript",
+                "REST APIs",
+                "Google Maps APIs",
+                "Operational Dashboards",
+                "Analytics Systems"
+            ]
+        },
+        {
+            title: "UBC Ecommerce Platform",
+            company: "UBC Food / UBC Holding / Maza Inc.",
+            image: "",
+            link: "#",
+            shortDesc: "Worked on a Next.js ecommerce platform integrated with enterprise backend systems, inventory workflows, and Azure-hosted infrastructure supporting online ordering operations.",
+            fullDesc: [
+                "Contributed to development and maintenance of a Next.js ecommerce platform connected to enterprise operational systems",
+                "Integrated backend APIs, inventory workflows, and operational services into the ecommerce experience",
+                "Worked on customer ordering flows, product management, and ecommerce operational logic",
+                "Managed Azure-hosted deployments including Blob Storage assets and production infrastructure coordination",
+                "Collaborated on production troubleshooting, feature implementation, and operational reliability improvements",
+                "Worked on synchronization workflows between ecommerce systems, inventory operations, and backend services",
+                "Contributed to maintaining scalable and stable production ecommerce environments"
+            ],
+            technologies: [
+                "Next.js",
+                "React.js",
+                "Azure",
+                "Blob Storage",
+                "REST APIs",
+                "Ecommerce Systems",
+                "CI/CD"
             ]
         },
         {
@@ -127,9 +251,9 @@ function Project() {
             fullDesc: [
                 "Worked on feature enhancements and bug fixing",
                 "Assisted in maintaining and improving platform functionality",
-                "Contributed to frontend/backend tasks within an existing Node.js codebase"
+                "Contributed to frontend/backend tasks within an existing React.js and Node.js codebase"
             ],
-            technologies: ["React.js", "JavaScript", "Web Development"]
+            technologies: ["React.js", "JavaScript", "Web Development", "Node.js"]
         },
         {
             title: "Slickey Learning Platform",
@@ -139,9 +263,9 @@ function Project() {
             shortDesc: "Online learning platform concept similar to Udemy focused on digital course management and learning experience.",
             fullDesc: [
                 "Worked on assigned development tasks within a Next.js application",
-                "Assisted in frontend feature implementation and platform improvements"
+                "Assisted in frontend and backend feature implementation and platform improvements"
             ],
-            technologies: ["Next.js", "React", "JavaScript"]
+            technologies: ["Next.js", "React", "JavaScript", "Node.js"]
         },
         {
             title: "Vative Solutions Corporate Website + CMS",
@@ -190,8 +314,8 @@ function Project() {
             fullDesc: [
                 "Developed Flutter mobile application",
                 "Coordinated closely with UI/UX designer for implementation",
-                "Built responsive mobile interfaces and app workflows",
-                "Participated in project planning and delivery"
+                "Built responsive mobile interfaces APIs and app workflows",
+                "Participated in project planning and delivery",
             ],
             technologies: ["Flutter", "Dart", "Firebase", "REST APIs"]
         },
@@ -208,6 +332,34 @@ function Project() {
                 "Collaborated with development team on scalable architecture"
             ],
             technologies: ["Laravel", "MySQL", "JavaScript", "SaaS Architecture"]
+        },
+        {
+            title: "Our Easy Game",
+            company: "Educational Tutoring & Learning Platform",
+            image: "",
+            link: "#",
+            shortDesc: "Developed the Flutter mobile application for an educational tutoring platform connecting students and parents in the U.S. with tutors for exam preparation, homework support, and online learning workflows.",
+            fullDesc: [
+                "Worked as the primary Flutter mobile developer responsible for building and maintaining the student-facing mobile application",
+                "Developed responsive mobile interfaces and operational workflows for tutoring, exam assistance, and learning support services",
+                "Integrated backend APIs and authentication workflows for student, parent, and tutor interactions",
+                "Implemented real-time and interactive user experiences for tutor discovery, learning assistance, and educational support features",
+                "Collaborated with backend and dashboard teams to ensure consistent API integration and operational reliability across platforms",
+                "Built scalable mobile application architecture focused on performance, maintainability, and smooth user experience",
+                "Handled production bug fixing, feature enhancements, and deployment support for live application environments",
+                "Contributed to improving usability and accessibility for students and parents using the platform across multiple learning workflows",
+                "Worked closely with stakeholders and designers to translate business and educational requirements into production-ready mobile features"
+            ],
+            technologies: [
+                "Flutter",
+                "Dart",
+                "REST APIs",
+                "Firebase",
+                "Authentication Systems",
+                "Mobile UI/UX",
+                "State Management",
+                "Real-Time Workflows"
+            ]
         },
         {
             title: "Backoffice Management System",
@@ -321,7 +473,7 @@ function Project() {
             <h1>Professional Projects</h1>
 
             <p className="projects-note">
-                More projects and case studies are currently being added.
+                More projects, images and case studies are still being added.
             </p>
 
             <div className="projects-grid">
